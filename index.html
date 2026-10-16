@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cris Travensoli | Cosméticos & Produtos de Higiene de Luxo</title>
+  <meta name="description" content="Loja oficial Cris Travensoli em Bateias, Campo Largo. O melhor em cosméticos, maquiagem, cuidados capilares, produtos de higiene pessoal e perfumaria fina das marcas O Boticário, Natura e Eudora.">
+  <meta name="keywords" content="Cris Travensoli, Cosméticos Campo Largo, Higiene Pessoal Bateias, Natura Campo Largo, Boticário Bateias, Eudora, Perfumaria Fina">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Cris Travensoli | Cosméticos & Produtos de Higiene">
+  <meta property="og:description" content="Cosméticos 100% originais, cuidados diários de higiene e perfumaria de luxo com vídeos reais e retirada em Bateias.">
+  <meta property="og:image" content="assets/images/hero_banner.jpg">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon SVG Dourado -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✨</text></svg>">
+
+  <!-- Estilos Customizados Dark Luxury -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- =====================================================================
+       TOP BAR DE AVISO E CUPOM DE BOAS-VINDAS
+       ===================================================================== -->
+  <aside class="top-bar" aria-label="Avisos Importantes">
+    <div class="top-bar-content">
+      <span class="top-bar-badge">CUPOM VIP</span>
+      <span>Ganhe <strong>10% OFF</strong> na sua 1ª compra de cosméticos com o cupom <strong>BEMVINDA10</strong></span>
+      <span>•</span>
+      <span>🌿 <strong>Retirada Grátis</strong> na Loja Física em Bateias</span>
+      <span>•</span>
+      <a href="#cadastroVip" class="top-bar-link">Cadastre-se no Clube VIP</a>
+    </div>
+  </aside>
+
+  <!-- =====================================================================
+       HEADER PRINCIPAL & NAVEGAÇÃO
+       ===================================================================== -->
+  <header class="header-main" id="headerMain">
+    <div class="container">
+      <div class="header-inner">
+        <!-- Logo e Identidade da Marca -->
+        <a href="#" class="brand-logo" id="brandLogoHome" aria-label="Cris Travensoli Cosméticos Página Inicial">
+          <div class="brand-title">Cris Travensoli <span>Cosméticos</span></div>
+          <div class="brand-tagline">Beleza • Higiene Pessoal • Skincare • Perfumaria</div>
+        </a>
+
+        <!-- Barra de Busca Instantânea -->
+        <div class="search-wrapper">
+          <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input 
+            type="text" 
+            id="searchInput" 
+            class="search-input" 
+            placeholder="Buscar cremes, sabonetes, shampoos, maquiagem..."
+            aria-label="Buscar cosméticos e produtos de higiene"
+          >
+        </div>
+
+        <!-- Ações do Cabeçalho -->
+        <div class="user-actions">
+          <a href="#cadastroVip" class="btn-vip-nav" id="navVipBtn" title="Cadastre-se e ganhe 10% OFF">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+            </svg>
+            <span id="navVipBtnText">Clube VIP</span>
+          </a>
+
+          <!-- Botão da Sacola / Carrinho -->
+          <button class="cart-icon-btn" id="openCartBtn" aria-label="Abrir Sacola de Compras" title="Sua Sacola">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <path d="M16 10a4 4 0 0 1-8 0"></path>
+            </svg>
+            <span class="cart-badge" id="cartBadge">0</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Menu de Categorias Horizontal -->
+    <nav class="categories-nav" aria-label="Categorias de Cosméticos">
+      <div class="container">
+        <ul class="categories-menu">
+          <li><a href="#vitrineSection" data-nav-category="all">Todos os Cosméticos</a></li>
+          <li><a href="#vitrineSection" data-nav-category="higiene">Higiene Pessoal & Banho</a></li>
+          <li><a href="#vitrineSection" data-nav-category="cabelos">Cuidados com Cabelos</a></li>
+          <li><a href="#vitrineSection" data-nav-category="perfumaria">Perfumaria Fina</a></li>
+          <li><a href="#vitrineSection" data-nav-category="skincare">Skincare & Maquiagem</a></li>
+          <li><a href="#videosSection" class="active">Vídeos Reais <span class="badge-reels-pulse">REELS</span></a></li>
+          <li><a href="#quemSomosSection">Loja Física em Bateias</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- =====================================================================
+         HERO SECTION (BANNER PRINCIPAL DARK NOIR)
+         ===================================================================== -->
+    <section class="hero-section" id="heroBannerSection" aria-label="Destaque Cosméticos">
+      <div class="container">
+        <div class="hero-banner-grid">
+          <div class="hero-content">
+            <div class="hero-eyebrow">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6 4.4 2.3 7.2-6.3-4.6-6.3 4.6 2.3-7.2-6-4.4h7.6z"/></svg>
+              Alta Perfumaria & Higiene Nobre
+            </div>
+            
+            <h1 class="hero-title">
+              O poder do autocuidado e da beleza, <em>com você todos os dias.</em>
+            </h1>
+
+            <p class="hero-subtitle">
+              Sua rotina de higiene pessoal e beleza com as melhores marcas: sabonetes cremosos, óleos de banho nutritivos, tratamentos capilares profundos e perfumes importados e nacionais 100% originais.
+            </p>
+
+            <div class="hero-buttons">
+              <a href="#vitrineSection" class="btn-primary-hero" id="heroCtaVitrine">
+                <span>Ver Cosméticos</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+
+              <a href="#videosSection" class="btn-video-hero" id="heroCtaVideos">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                <span>Assistir Vídeos Reais</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-image-wrapper">
+            <img 
+              src="assets/images/hero_banner.jpg" 
+              alt="Cris Travensoli Cosméticos e Produtos de Higiene" 
+              class="hero-image"
+            >
+            <div class="hero-floating-card">
+              <div class="floating-card-title">Atendimento Cris Travensoli</div>
+              <div class="floating-card-text">
+                Produtos 100% originais lacrados. Retire na loja física em Bateias ou receba em casa com entrega rápida!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         BARRA DE BENEFÍCIOS (DIFERENCIAIS)
+         ===================================================================== -->
+    <section class="benefits-bar" aria-label="Diferenciais da Boutique Cris Travensoli">
+      <div class="container">
+        <div class="benefits-grid">
+          <div class="benefit-item">
+            <div class="benefit-icon">🌿</div>
+            <div class="benefit-text">
+              <h4>100% Originais & Lacrados</h4>
+              <p>Procedência garantida: Boticário, Natura, Eudora e O.U.i.</p>
+            </div>
+          </div>
+
+          <div class="benefit-item">
+            <div class="benefit-icon">🧴</div>
+            <div class="benefit-text">
+              <h4>Higiene & Cuidados</h4>
+              <p>Sabonetes vegetais, hidratantes potentes e óleos de banho.</p>
+            </div>
+          </div>
+
+          <div class="benefit-item">
+            <div class="benefit-icon">🏬</div>
+            <div class="benefit-text">
+              <h4>Retirada em Bateias</h4>
+              <p>Loja anexa ao Material de Construção Rossa, Campo Largo.</p>
+            </div>
+          </div>
+
+          <div class="benefit-item">
+            <div class="benefit-icon">💬</div>
+            <div class="benefit-text">
+              <h4>Consultoria no WhatsApp</h4>
+              <p>Tire dúvidas sobre tons, tipos de pele e fragrâncias na hora.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         SEÇÃO DE VÍDEOS REAIS DOS PRODUTOS (PROVADOR VIRTUAL)
+         ===================================================================== -->
+    <section class="section-videos" id="videosSection" aria-label="Vídeos Reais dos Cosméticos">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Transparência em Vídeo</span>
+          <h2 class="section-title">Vídeos Reais dos Produtos</h2>
+          <p class="section-subtitle">
+            Veja a textura cremosa dos sabonetes, o efeito de hidratação dos óleos de banho, o brilho dos tratamentos capilares e a borrifada dos perfumes antes de comprar.
+          </p>
+        </div>
+
+        <div class="videos-carousel-wrapper">
+          <div class="videos-grid" id="videosGrid">
+            <!-- Cards de vídeo gerados dinamicamente via JS -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         SEÇÃO VITRINE DE COSMÉTICOS
+         ===================================================================== -->
+    <section class="section-vitrine" id="vitrineSection" aria-label="Vitrine de Cosméticos">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Catálogo Completo</span>
+          <h2 class="section-title">Vitrine de Cosméticos & Higiene</h2>
+          <p class="section-subtitle">
+            Navegue pelos produtos essenciais para o seu banho, cabelo, cuidados com o corpo e perfumaria.
+          </p>
+        </div>
+
+        <!-- Controles de Filtros e Ordenação -->
+        <div class="vitrine-controls">
+          <div class="filter-pills" id="categoryFilterPills" role="tablist">
+            <button class="filter-pill active" data-category="all">Todos os Cosméticos</button>
+            <button class="filter-pill" data-category="higiene">Higiene & Banho</button>
+            <button class="filter-pill" data-category="cabelos">Cuidados com Cabelos</button>
+            <button class="filter-pill" data-category="perfumaria">Perfumaria Fina</button>
+            <button class="filter-pill" data-category="skincare">Skincare & Make</button>
+          </div>
+
+          <div class="vitrine-sort">
+            <label for="sortSelect" style="font-size: 0.85rem; font-weight: 700; color: var(--gold-light);">Ordenar:</label>
+            <select id="sortSelect" class="sort-select" aria-label="Ordenar produtos">
+              <option value="featured">Destaques da Cris</option>
+              <option value="price-asc">Menor Preço</option>
+              <option value="price-desc">Maior Preço</option>
+              <option value="rating">Melhor Avaliados</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Grid de Produtos Renderizado pelo JS -->
+        <div class="products-grid" id="productsGrid">
+          <!-- Renderizado via app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         SEÇÃO CLUBE VIP & CADASTRO DE CLIENTES
+         ===================================================================== -->
+    <section class="section-vip-register" id="cadastroVip" aria-label="Cadastro de Clientes Clube VIP">
+      <div class="container">
+        <div class="vip-card-box">
+          <div class="vip-info-side">
+            <span class="section-tag">Clube de Autocuidado</span>
+            <h2>Faça parte do <span>Clube VIP</span> Cris Travensoli</h2>
+            <p>
+              Cadastre-se gratuitamente para receber cupons exclusivos de reposição de cosméticos, ofertas relâmpago no WhatsApp, presentes no seu aniversário e libere na hora o cupom de 10% de desconto!
+            </p>
+
+            <ul class="vip-perks-list">
+              <li class="vip-perk-item">
+                <span class="perk-check">✓</span>
+                <span>Cupom imediato de <strong>10% OFF</strong> para sua compra de cosméticos</span>
+              </li>
+              <li class="vip-perk-item">
+                <span class="perk-check">✓</span>
+                <span>Presente / Mimo perfumado no mês do seu aniversário</span>
+              </li>
+              <li class="vip-perk-item">
+                <span class="perk-check">✓</span>
+                <span>Lembrete de reposição dos seus produtos favoritos de higiene</span>
+              </li>
+              <li class="vip-perk-item">
+                <span class="perk-check">✓</span>
+                <span>Consultoria de beleza e fragrâncias direta com a Cris</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="vip-form-side">
+            <div class="vip-form-header">
+              <h3>Cadastre-se em 1 Minuto</h3>
+              <p>Preencha seus dados para receber seus benefícios VIP.</p>
+            </div>
+
+            <!-- Formulário de Cadastro -->
+            <form id="vipRegistrationForm">
+              <div class="form-group">
+                <label for="vipName">Nome Completo *</label>
+                <input type="text" id="vipName" class="form-control" placeholder="Ex: Patrícia Becker" required>
+              </div>
+
+              <div class="form-grid-2">
+                <div class="form-group">
+                  <label for="vipPhone">WhatsApp *</label>
+                  <input type="tel" id="vipPhone" class="form-control" placeholder="(41) 99999-9999" required>
+                </div>
+                <div class="form-group">
+                  <label for="vipBirthday">Data de Nascimento (Aniversário)</label>
+                  <input type="date" id="vipBirthday" class="form-control">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="vipEmail">E-mail</label>
+                <input type="email" id="vipEmail" class="form-control" placeholder="seuemail@exemplo.com">
+              </div>
+
+              <div class="form-grid-2">
+                <div class="form-group">
+                  <label for="vipInterest">Linha Favorita</label>
+                  <select id="vipInterest" class="form-control">
+                    <option value="todos">Todas (Perfumaria, Banho e Skincare)</option>
+                    <option value="higiene">Higiene Pessoal & Banho (Sabonetes, Óleos)</option>
+                    <option value="cabelos">Cuidados com Cabelos (Siàge / Lumina)</option>
+                    <option value="perfumaria">Perfumaria Fina (Lily, Essencial, O.U.i)</option>
+                    <option value="skincare">Skincare & Maquiagem</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="vipDelivery">Preferência de Recebimento</label>
+                  <select id="vipDelivery" class="form-control">
+                    <option value="retirada">Retirar na Loja em Bateias</option>
+                    <option value="motoboy">Entrega em Casa (Campo Largo/Região)</option>
+                    <option value="correios">Envio pelos Correios</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="checkbox-group">
+                <input type="checkbox" id="vipOptIn" checked required>
+                <label for="vipOptIn">Desejo receber novidades e cupons VIP de cosméticos no meu WhatsApp.</label>
+              </div>
+
+              <button type="submit" class="btn-vip-submit" id="btnSubmitVip">
+                <span>Completar Cadastro & Desbloquear 10% OFF</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+              </button>
+            </form>
+
+            <!-- Box de Sucesso após Cadastro -->
+            <div class="vip-success-box" id="vipSuccessBox">
+              <div style="font-size: 3rem; margin-bottom: 0.5rem;">🎉</div>
+              <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-bottom: 0.5rem;">Bem-vinda ao Clube VIP!</h3>
+              <p style="font-size: 0.9rem; color: var(--text-secondary);">
+                Seu cadastro foi salvo com sucesso. Use o cupom abaixo no carrinho para ganhar 10% de desconto imediato em seus cosméticos:
+              </p>
+
+              <div class="vip-coupon-reveal">
+                <span style="font-size: 0.75rem; text-transform: uppercase; color: var(--gold-light); font-weight: 700; display: block; margin-bottom: 0.2rem;">Seu Cupom de Primeira Compra</span>
+                <div class="coupon-code-text" id="vipCouponDisplay">BEMVINDA10</div>
+              </div>
+
+              <button class="btn-card-buy" id="copyCouponBtn" style="width: 100%; padding: 0.85rem; font-size: 0.95rem;">
+                Copiar Cupom & Ver Cosméticos
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         SEÇÃO QUEM SOMOS & LOCALIZAÇÃO FÍSICA EM BATEIAS
+         ===================================================================== -->
+    <section class="section-about" id="quemSomosSection" aria-label="Sobre a Cris Travensoli e Loja Física">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text">
+            <span class="section-tag">Confiança & Procedência</span>
+            <h2>O carinho do atendimento local com a comodidade do site</h2>
+            <p>
+              A <strong>Cris Travensoli Cosméticos</strong> é referência em beleza e higiene pessoal em Bateias, Campo Largo (anexo ao conceituado Material de Construção Rossa). Trabalhamos exclusivamente com cosméticos originais das marcas mais amadas do Brasil: O Boticário, Natura, Eudora e O.U.i Paris.
+            </p>
+            <p>
+              Criamos este espaço online para que você possa escolher com calma seus produtos de higiene diária e perfumes, assistir a vídeos demonstrando os produtos reais e decidir se prefere retirar na nossa loja em Bateias ou receber confortavelmente na sua casa.
+            </p>
+
+            <div class="store-features">
+              <div class="store-feature-card">
+                <h4>Produtos Lacrados</h4>
+                <p>Todos os cosméticos e itens de higiene são 100% novos e lacrados de fábrica.</p>
+              </div>
+              <div class="store-feature-card">
+                <h4>Retirada Rápida em Bateias</h4>
+                <p>Compre pelo site e retire sua sacola pronta na loja sem esperar em filas.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card de Localização Física -->
+          <div class="store-location-card">
+            <div class="store-badge-status">
+              <span class="store-status-dot"></span>
+              Loja Física Aberta para Retiradas
+            </div>
+
+            <h3 style="font-family: var(--font-serif); font-size: 1.4rem; margin-bottom: 1.2rem; color: #FFF;">
+              Nossa Loja em Bateias
+            </h3>
+
+            <div class="store-info-row">
+              <div class="store-info-icon">📍</div>
+              <div class="store-info-text">
+                <strong>Endereço Físico:</strong>
+                <span>Estrada Principal de Bateias, Campo Largo - PR<br>(Anexo ao Material de Construção Rossa)</span>
+              </div>
+            </div>
+
+            <div class="store-info-row">
+              <div class="store-info-icon">⏰</div>
+              <div class="store-info-text">
+                <strong>Horário de Funcionamento:</strong>
+                <span>Segunda a Sexta: 08:30 às 18:00<br>Sábados: 08:30 às 13:00</span>
+              </div>
+            </div>
+
+            <div class="store-info-row">
+              <div class="store-info-icon">📦</div>
+              <div class="store-info-text">
+                <strong>Entregas Locais:</strong>
+                <span>Entrega expressa diária via motoboy para toda Campo Largo e região.</span>
+              </div>
+            </div>
+
+            <a 
+              href="https://maps.google.com/?q=Bateias+Campo+Largo+PR+Material+Rossa" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              class="btn-open-maps" 
+              id="btnStoreMap"
+            >
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <span>Ver Localização no Google Maps</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================================
+         SEÇÃO DE DEPOIMENTOS DE CLIENTES
+         ===================================================================== -->
+    <section class="section-testimonials" aria-label="Depoimentos de Clientes">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Depoimentos Reais</span>
+          <h2 class="section-title">O que nossas clientes dizem</h2>
+          <p class="section-subtitle">
+            Avaliações de quem compra cosméticos e produtos de higiene com a Cris em Campo Largo.
+          </p>
+        </div>
+
+        <div class="testimonials-grid" id="testimonialsGrid">
+          <!-- Renderizado via app.js -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =====================================================================
+       FOOTER (RODAPÉ DARK)
+       ===================================================================== -->
+  <footer class="site-footer" id="siteFooter">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="brand-title" style="color: #FFF; font-size: 1.45rem; margin-bottom: 0.6rem;">
+            Cris Travensoli <span>Cosméticos</span>
+          </div>
+          <p>
+            Especializada em cosméticos de alta performance, produtos de higiene pessoal para toda a família e perfumaria nobre.
+          </p>
+          <div style="font-size: 0.85rem; color: var(--gold-light);">
+            <strong>Localização:</strong> Bateias, Campo Largo - PR
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Cosméticos & Higiene</h4>
+          <ul class="footer-links">
+            <li><a href="#vitrineSection" data-nav-category="higiene">Higiene Pessoal & Banho</a></li>
+            <li><a href="#vitrineSection" data-nav-category="cabelos">Shampoos & Tratamentos</a></li>
+            <li><a href="#vitrineSection" data-nav-category="perfumaria">Perfumaria O Boticário & Natura</a></li>
+            <li><a href="#vitrineSection" data-nav-category="skincare">Skincare & Maquiagem</a></li>
+            <li><a href="#videosSection">Vídeos Reais dos Produtos</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Atendimento & Loja</h4>
+          <ul class="footer-links">
+            <li><a href="#quemSomosSection">Loja Física em Bateias</a></li>
+            <li><a href="#cadastroVip">Clube VIP e Desconto 10%</a></li>
+            <li><a href="https://wa.me/5541999999999" target="_blank" rel="noopener noreferrer">Falar com a Cris no WhatsApp</a></li>
+            <li><a href="#quemSomosSection">Retirada no Material Rossa</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Formas de Pagamento</h4>
+          <p>Compre pelo site com total comodidade e segurança:</p>
+          <div class="footer-badge-cards">
+            <span class="pay-card-pill" style="background: rgba(0, 230, 118, 0.15); color: var(--color-pix); border-color: rgba(0, 230, 118, 0.3);">PIX (5% OFF)</span>
+            <span class="pay-card-pill">Cartão de Crédito</span>
+            <span class="pay-card-pill">Boleto Bancário</span>
+            <span class="pay-card-pill">Pagar na Retirada</span>
+          </div>
+          <div style="margin-top: 1.5rem; font-size: 0.8rem; color: var(--text-muted);">
+            🔒 Criptografia e segurança de ponta a ponta.
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 Cris Travensoli Cosméticos & Higiene. Todos os direitos reservados. cristravensoli.com.br</div>
+        <div>Beleza, cuidado e atendimento com excelência.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =====================================================================
+       MODAL DE VÍDEO DO PRODUTO (DARK REELS INTERATIVO)
+       ===================================================================== -->
+  <div class="video-modal-backdrop" id="videoModalBackdrop" role="dialog" aria-modal="true" aria-labelledby="videoModalTitle">
+    <div class="video-modal-container">
+      <button class="video-modal-close" id="videoModalClose" aria-label="Fechar Vídeo">✕</button>
+
+      <!-- Player de Vídeo -->
+      <div class="video-player-side">
+        <video 
+          id="videoPlayerElement" 
+          class="video-element" 
+          playsinline 
+          loop
+        ></video>
+
+        <div class="video-custom-controls">
+          <button class="video-ctrl-btn" id="videoPlayPauseBtn" aria-label="Pausar ou Reproduzir">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+          </button>
+          <span style="font-size: 0.75rem; color: var(--gold-light); font-weight: 700;">Vídeo Real do Cosmético</span>
+          <button class="video-ctrl-btn" id="videoMuteBtn" aria-label="Ativar ou Desativar Som">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Detalhes do Produto e Botões de Compra -->
+      <div class="video-details-side">
+        <span class="video-details-badge" id="videoModalBadge">Cosméticos</span>
+        <h3 id="videoModalTitle">Título do Vídeo</h3>
+        <div class="video-author-badge" id="videoModalAuthor">
+          Gravado na Loja por <strong>Cris Travensoli</strong>
+        </div>
+
+        <p class="video-details-desc" id="videoModalDesc">
+          Descrição da demonstração do cosmético visto de perto.
+        </p>
+
+        <div class="video-highlights-box" id="videoModalHighlights">
+          <!-- Destaques preenchidos via JS -->
+        </div>
+
+        <div class="video-buy-box">
+          <div style="font-size: 0.8rem; color: var(--text-muted);">Preço à vista no PIX com 5% de desconto:</div>
+          <div class="video-buy-price" id="videoModalPrice">R$ 0,00</div>
+          <div class="video-buy-actions">
+            <button class="btn-add-from-video" id="videoAddToCartBtn">Adicionar à Sacola</button>
+            <button class="btn-zap-from-video" id="videoWhatsAppBtn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"/></svg>
+              <span>Pedir no WhatsApp</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       MODAL DE QUICK VIEW DO PRODUTO (DETALHES COMPLETOS)
+       ===================================================================== -->
+  <div class="product-modal-backdrop" id="productModalBackdrop" role="dialog" aria-modal="true" aria-label="Detalhes do Produto">
+    <div class="product-modal-box">
+      <button class="modal-close-btn" id="productModalClose" aria-label="Fechar Detalhes">✕</button>
+      <div id="productModalContent" style="display: contents;">
+        <!-- Preenchido dinamicamente via JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- =====================================================================
+       DRAWER DO CARRINHO DE COMPRAS
+       ===================================================================== -->
+  <div class="cart-drawer-backdrop" id="cartDrawerBackdrop"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Sacola de Cosméticos">
+    <div class="cart-header">
+      <h3>Sua Sacola de Cosméticos</h3>
+      <button class="modal-close-btn" id="closeCartBtn" aria-label="Fechar Sacola" style="position: static;">✕</button>
+    </div>
+
+    <!-- Lista de Itens do Carrinho -->
+    <div class="cart-items-body" id="cartItemsContainer">
+      <!-- Gerado via app.js -->
+    </div>
+
+    <!-- Footer do Carrinho -->
+    <div class="cart-footer">
+      <div class="cart-frete-box">
+        <label for="shippingSelect" style="font-size: 0.8rem; font-weight: 700; color: var(--gold-light); display: block;">
+          Opção de Entrega / Retirada:
+        </label>
+        <select id="shippingSelect" class="cart-frete-select">
+          <option value="retirada">Retirar na Loja em Bateias (GRÁTIS)</option>
+          <option value="motoboy">Motoboy Campo Largo (Grátis acima de R$ 99)</option>
+          <option value="correios">Correios Todo o Brasil (R$ 18,90)</option>
+        </select>
+      </div>
+
+      <!-- Cupom de Desconto -->
+      <div style="display: flex; gap: 0.4rem; margin-bottom: 0.8rem;">
+        <input type="text" id="couponInput" placeholder="Ex: BEMVINDA10" class="form-control" style="text-transform: uppercase; padding: 0.5rem; font-size: 0.85rem;">
+        <button id="applyCouponBtn" style="background: var(--gold-primary); color: #000; font-size: 0.82rem; font-weight: 800; padding: 0.5rem 0.9rem; border-radius: 4px;">Aplicar</button>
+      </div>
+      <div id="couponMessage" style="font-size: 0.75rem; margin-bottom: 0.8rem;"></div>
+
+      <!-- Resumo Financeiro -->
+      <div class="cart-subtotal-row">
+        <span>Subtotal:</span>
+        <span id="cartSubtotal">R$ 0,00</span>
+      </div>
+
+      <div class="cart-subtotal-row" id="cartDiscountRow" style="display: none; color: var(--color-pix);">
+        <span>Desconto Cupom:</span>
+        <span id="cartDiscount">- R$ 0,00</span>
+      </div>
+
+      <div class="cart-subtotal-row">
+        <span>Frete / Envio:</span>
+        <span id="cartShipping">GRÁTIS</span>
+      </div>
+
+      <div class="cart-total-row">
+        <span>TOTAL:</span>
+        <span id="cartTotal">R$ 0,00</span>
+      </div>
+
+      <button class="btn-checkout-zap" id="checkoutWhatsAppBtn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zM12.05 20.28c-1.54 0-3.04-.41-4.35-1.18l-.31-.18-3.23.85.86-3.15-.2-.32a8.033 8.033 0 0 1-1.23-4.38c0-4.45 3.63-8.08 8.08-8.08 2.16 0 4.19.84 5.72 2.37a8.025 8.025 0 0 1 2.36 5.71c0 4.46-3.63 8.08-8.08 8.08z"/>
+        </svg>
+        <span>Finalizar Pedido no WhatsApp</span>
+      </button>
+
+      <div style="text-align: center; font-size: 0.72rem; color: var(--text-muted); margin-top: 0.6rem;">
+        Seu pedido de cosméticos será encaminhado diretamente para a Cris preparar.
+      </div>
+    </div>
+  </aside>
+
+  <!-- =====================================================================
+       BOTÃO FLUTUANTE DO WHATSAPP
+       ===================================================================== -->
+  <a 
+    href="https://wa.me/5541999999999?text=Ol%C3%A1%20Cris!%20Estou%20no%20site%20e%20gostaria%20de%20consultoria%20sobre%20cosm%C3%A9ticos%20e%20produtos%20de%20higiene." 
+    target="_blank" 
+    rel="noopener noreferrer" 
+    class="btn-whatsapp-floating" 
+    id="btnWhatsAppFloating" 
+    aria-label="Falar com a Cris no WhatsApp" 
+    title="Fale conosco no WhatsApp"
+  >
+    <div class="whatsapp-pulse-ring"></div>
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2zm.01 16.48c-1.46 0-2.88-.39-4.13-1.13l-.3-.18-3.07.81.82-2.99-.19-.31a7.99 7.99 0 0 1-1.22-4.28c0-4.41 3.59-8 8-8 2.14 0 4.15.83 5.66 2.34a7.95 7.95 0 0 1 2.34 5.66c0 4.41-3.59 8-8 8zm4.39-5.99c-.24-.12-1.42-.7-1.64-.78-.22-.08-.38-.12-.54.12-.16.24-.62.78-.76.94-.14.16-.28.18-.52.06s-1.02-.38-1.94-1.2c-.72-.64-1.2-1.44-1.34-1.68-.14-.24-.02-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.2-.48-.4-.41-.54-.42h-.46c-.16 0-.42.06-.64.3-.22.24-.84.82-.84 2 0 1.18.86 2.32.98 2.48.12.16 1.7 2.6 4.12 3.64.58.25 1.03.4 1.38.51.58.18 1.11.16 1.53.1.47-.07 1.42-.58 1.62-1.14.2-.56.2-1.04.14-1.14-.06-.1-.22-.16-.46-.28z"/>
+    </svg>
+  </a>
+
+  <!-- Scripts -->
+  <script src="js/products.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
